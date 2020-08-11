@@ -1,4 +1,4 @@
 # how-to-student
 ### Markdown test
-- [] test1
+- [ ] test1
 - [x] test2
