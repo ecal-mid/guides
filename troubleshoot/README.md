@@ -1,7 +1,7 @@
 ## Ecal MID
 # Troubleshoot Checklist
 
-- [ ] Test\
+- [ ] Test
   - Lewhat
 - [ ] Test2 *hey*
 dude what
