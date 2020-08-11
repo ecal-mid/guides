@@ -1,1 +1,1 @@
-# how-to-student
+# GUIDES
