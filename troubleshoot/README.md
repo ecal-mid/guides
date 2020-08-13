@@ -1,5 +1,5 @@
-## Ecal MID
-# JS Troubleshoot Checklist
+## [Ecal MID](../)
+# [JS Troubleshoot Checklist](./)
 
 - [ ] `{}`, `[]`, `{}` manquants ?
   - Bien indenter le code avec des formatteurs de code :

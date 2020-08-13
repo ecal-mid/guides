@@ -21,25 +21,23 @@ async function init() {
 
   document.querySelectorAll("a").forEach(fixHyperlink);
 
-  document
-    .querySelectorAll("h1, h2")
-    .forEach((elem) =>
-      clickableHeading(
-        elem,
-        "javascript:window.location.href=window.location.href"
-      )
-    );
+  // clickableHeading(document.querySelector("#main-container > h2"), "../");
+
+  // clickableHeading(
+  //   document.querySelector("#main-container > h1"),
+  //   "javascript:window.location.href=window.location.href"
+  // );
 }
 
 function fixHyperlink(hyperLinkTag) {
   let regExp = /\(([^)]+)\)/;
-  let href = regExp.exec(hyperLinkTag.href)[1];
-  hyperLinkTag.href = href || hyperLinkTag.href;
-  //matches[1] contains the value between the parentheses
-
-  hyperLinkTag.target = "_blank";
-  hyperLinkTag.rel = "external";
-  console.log(hyperLinkTag);
+  let href = regExp.exec(hyperLinkTag.href);
+  if (href) {
+    // detect if external link
+    hyperLinkTag.target = "_blank";
+    hyperLinkTag.rel = "external";
+    hyperLinkTag.href = href[1];
+  }
   return hyperLinkTag;
 }
 
