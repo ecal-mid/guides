@@ -1,45 +1,82 @@
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
 html,
 body {
   margin: 0;
   height: 100%;
+  width: 100%;
   font-family: "helvetica";
+  font-size: 1.1em;
 }
 
-#main-container {
+#main-container > h1,
+#main-container > h2 {
+  display: inline-block;
+  font-weight: inherit;
+  font-size: inherit;
+  padding: 1em;
+  margin: 0 0 0 2em;
 }
 
-ul {
-  list-style-type: none;
+#main-container > h2 {
+  color: lightgray;
+}
+
+#main-container > h1 > a,
+#main-container > h2 > a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#main-container > h1 {
+  text-transform: uppercase;
+}
+
+code {
+  font-family: monospace;
+  background: lightgray;
+}
+
+#main-container > ul {
   padding-inline-start: 0;
+  list-style-type: none;
 }
 
 :checked + label {
-  text-decoration: line-through;
-  opacity: 0.2;
+  opacity: 0.1;
   /* background: rgba(0,0,0,.1); */
-}
-
-li {
-  display: flex;
 }
 
 label {
   display: flex;
+  /* padding: 1em; */
+  /* box-sizing: border-box; */
+}
+
+.item {
   flex: 1 0 auto;
-  padding: 1em;
   box-sizing: border-box;
 }
 
-li:nth-child(2n) {
-    background: rgba(0, 0, 0, 0.02);
+.item,
+summary {
+  padding: 1em 1em 1em 0;
 }
 
-li:hover label {
-  background: rgba(0, 0, 0, 0.1);
+#main-container > ul > li:nth-child(2n + 1) {
+  background: rgba(0, 0, 0, 0.03);
 }
 
-label>div {
-    padding-left: 1em;
+#main-container > ul > li:hover label {
+  /* background: rgba(50, 0, 250, 0.09); */
+  box-shadow: inset 0 0 0 1px black;
+}
+
+.btn-more {
+  display: inline-block;
 }
 
 input[type="checkbox"] {
@@ -48,15 +85,52 @@ input[type="checkbox"] {
   cursor: pointer;
   height: 0;
   width: 0;
-  
+}
+
+summary {
+  outline: none;
+  cursor: pointer;
+}
+
+ul {
+  margin-block-start: 0;
+}
+
+details {
+  width: 100%;
+}
+
+details > ul {
+  margin-bottom: 1em;
 }
 
 .checkbox {
+  flex: 0 0 auto;
+  cursor: pointer;
+  margin: 1em;
   order: -1;
-  background: red;
+  box-shadow: 0 0 0 1px black;
   width: 1em;
   height: 1em;
   box-sizing: border-box;
+  position: relative;
+}
+
+.checkbox > .check {
+  top: -15%;
+  left: 25%;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+:checked + label > .checkbox {
+  background: black;
+}
+
+:checked + label > .checkbox > .check {
+  display: block;
+  box-shadow: inset -1px -1px white;
 }
 
 #templates {
