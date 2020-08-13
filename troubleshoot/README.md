@@ -1,4 +1,3 @@
-## [Ecal MID](../)
 # [JS Troubleshoot Checklist](./)
 
 - [ ] `{}`, `[]`, `{}` manquants ?

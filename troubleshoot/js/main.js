@@ -21,12 +21,21 @@ async function init() {
 
   document.querySelectorAll("a").forEach(fixHyperlink);
 
+  addBackButton()
   // clickableHeading(document.querySelector("#main-container > h2"), "../");
 
   // clickableHeading(
   //   document.querySelector("#main-container > h1"),
   //   "javascript:window.location.href=window.location.href"
   // );
+}
+
+function addBackButton() {
+  let isSubDirectory = window.location.pathname !== "/";
+  if (isSubDirectory) {
+    let elem = cloneTemplate(".prev-button");
+    document.querySelector("#main-container > h1").appendChild(elem);
+  }
 }
 
 function fixHyperlink(hyperLinkTag) {
@@ -54,6 +63,7 @@ function remapCheckBox(checkbox, index) {
   checkbox.name = checkbox.id = id;
 
   label.setAttribute("for", id);
+  label.tabIndex = index+1;
   const container = document.createElement("div");
   container.className = "item";
   container.append(...prt.childNodes);

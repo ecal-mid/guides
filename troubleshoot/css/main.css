@@ -16,27 +16,24 @@ body {
   font-size: 1.1em;
 }
 
-#main-container > h1,
-#main-container > h2 {
+#main-container > h1 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
   display: inline-block;
   font-weight: inherit;
   font-size: inherit;
-  padding: 1em;
-  margin: 0 0 0 2em;
+  padding: 1rem 1rem 1rem calc(4rem + 1ch);
+  background: white;
+  z-index: 100;
+  box-shadow: 0 0.3em 1em 0 rgba(0, 0, 0, 0.03);
+  margin: 0;
 }
 
-#main-container > h2 {
-  color: lightgray;
-}
-
-#main-container > h1 > a,
-#main-container > h2 > a {
+#main-container > h1 > a {
   color: inherit;
   text-decoration: inherit;
-}
-
-#main-container > h1 {
-  text-transform: uppercase;
 }
 
 code {
@@ -47,6 +44,20 @@ code {
 #main-container > ul {
   padding-inline-start: 0;
   list-style-type: none;
+}
+
+.prev-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+}
+.prev-button>a {
+  color: inherit;
+  line-height: 1rem;
+  text-decoration: inherit;
+  font-size: 1.6rem;
 }
 
 :checked + label {
@@ -74,9 +85,11 @@ summary {
   background: rgba(0, 0, 0, 0.03);
 }
 
-#main-container > ul > li:hover label {
-  /* background: rgba(50, 0, 250, 0.09); */
-  box-shadow: inset 0 0 0 1px black;
+#main-container > ul > li > label:hover,
+#main-container > ul > li > label:focus {
+  outline: 1px solid black;
+  outline-offset: -1px;
+  -webkit-box-shadow: none;
 }
 
 .btn-more {
