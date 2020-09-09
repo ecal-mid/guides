@@ -8,7 +8,7 @@
 - [Lancer un Localhost (Python)](https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python).
 
 ## Tutoriaux
-- [P5.js - Coding Train de Daniel Shiffman](https://www.youtube.com/shiffman).
+- [P5.js - Coding Train de Daniel Shiffman](https://www.youtube.com/user/shiffman).
 
 ## Documentations
 - [Documentation du Web - MDN](https://developer.mozilla.org/fr/).
