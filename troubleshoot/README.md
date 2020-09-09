@@ -19,7 +19,7 @@
 	- Ecrire `use strict;` à la première ligne de votre code. Ça forcera à déclarer les variables : 
 		- `let poop = 1;`
 		- `let wtf; wtf = 2;`
-- [ ] Une librairie à été mise à jour ?
+- [ ] Une librairie a été mise à jour ?
 	-  Risque de non-compatibilité avec le code. Regarder les changements dans la documentation de la librairie. Ou télécharger une ancienne version.
 - [ ] N'arrive pas à trouver le code ?
 	- Parcourir le code à l'envers depuis la ligne de l'erreur pour chercher d'où elle vient.
