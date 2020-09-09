@@ -1,5 +1,3 @@
-# GUIDES
-
 ## Cheat Sheets
 - [Javascript Troubleshoot Checklist](./troubleshoot).
 - [CSS Box Model](./resources/CSS%20Box%20Model%20Cheat%20Sheet%20-%20Dark.pdf) [PDF].
