@@ -21,7 +21,7 @@
 		- `let wtf; wtf = 2;`
 - [ ] Une librairie a été mise à jour ?
 	-  Risque de non-compatibilité avec le code. Regarder les changements dans la documentation de la librairie. Ou télécharger une ancienne version.
-- [ ] N'arrive pas à trouver le code ?
+- [ ] N'arrive pas à trouver l'origine de l'erreur ?
 	- Parcourir le code à l'envers depuis la ligne de l'erreur pour chercher d'où elle vient.
 - [ ] La variable est `undefined`  ?
 	- Faire un `console.log(nomDeLaVariable)` avant chaque mention de la variable dans le code.
