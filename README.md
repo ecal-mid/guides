@@ -14,6 +14,7 @@
 - [Web - MDN](https://developer.mozilla.org/fr/).
 - [Web - W3Schools](https://www.w3schools.com/).
 - [P5.js](https://p5js.org/reference/).
+- [JQuery](https://api.jquery.com/).
 
 ## Creative Coding, Inspirations
 - [OpenProcessing](https://www.openprocessing.org/).
