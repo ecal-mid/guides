@@ -1,13 +1,13 @@
 # GUIDES
 
-## HTML/CSS/JS Cheat Sheets
-- [Long live the scroll](https://ecal-mid.ch/resources/html-css-js/).
+## Cheat Sheets
+- [Javascript Troubleshoot Checklist](./troubleshoot).
 - [CSS Box Model](./resources/CSS%20Box%20Model%20Cheat%20Sheet%20-%20Dark.pdf) [PDF].
 - [CSS Selector](./resources/CSS%20Selector%20Cheat%20Sheet%20-%20Dark.pdf) [PDF].
-- [Javascript Troubleshoot Checklist](./troubleshoot).
 - [Lancer un Localhost (Python)](https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python).
 
 ## Tutoriaux
+- [HTML/CSS - Long live the scroll](https://ecal-mid.ch/resources/html-css-js/).
 - [P5.js - Coding Train de Daniel Shiffman](https://www.youtube.com/user/shiffman).
 
 ## Documentations
