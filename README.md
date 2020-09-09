@@ -11,11 +11,13 @@
 - [P5.js - Coding Train de Daniel Shiffman](https://www.youtube.com/user/shiffman).
 
 ## Documentations
-- [Documentation du Web - MDN](https://developer.mozilla.org/fr/).
+- [Web - MDN](https://developer.mozilla.org/fr/).
+- [Web - W3Schools](https://www.w3schools.com/).
+- [P5.js](https://p5js.org/reference/).
 
 ## Creative Coding, Inspirations
-- [OpenProcessing](https://www.openprocessing.org/)
-- [Codepen](https://codepen.io/)
+- [OpenProcessing](https://www.openprocessing.org/).
+- [Codepen](https://codepen.io/).
 - [r/creativecoding](https://www.reddit.com/r/creativecoding/).
 - [r/generative](https://www.reddit.com/r/generative/).
 - [Creative Applications](https://www.creativeapplications.net/).
