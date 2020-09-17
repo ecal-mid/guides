@@ -5,6 +5,9 @@
 - [CSS Box Model](./resources/CSS%20Box%20Model%20Cheat%20Sheet%20-%20Dark.pdf) [PDF].
 - [CSS Selector](./resources/CSS%20Selector%20Cheat%20Sheet%20-%20Dark.pdf) [PDF].
 - [Lancer un Localhost (Python)](https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python).
+## Utilitaires, outils
+- [CSS Grid Generator](https://vue-grid-generator.netlify.app/)
+- [Fonctions utilitaires JS WIP](https://utils.matoseb.com/)
 
 ## Tutoriaux
 - [HTML/CSS - Long live the scroll](https://ecal-mid.ch/resources/html-css-js/).
