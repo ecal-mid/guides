@@ -7,7 +7,7 @@
 - [Lancer un Localhost (Python)](https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python).
 ## Utilitaires, outils
 - [CSS Grid Generator](https://vue-grid-generator.netlify.app/)
-- [Fonctions utilitaires JS WIP](https://utils.matoseb.com/)
+- [Fonctions utilitaires Javascript (Work in progress)](https://utils.matoseb.com/)
 
 ## Tutoriaux
 - [HTML/CSS - Long live the scroll](https://ecal-mid.ch/resources/html-css-js/).
