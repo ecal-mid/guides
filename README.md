@@ -7,8 +7,9 @@
 - [Lancer un Localhost (Python)](https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python).
 
 ## Utilitaires, outils
-- [CSS Grid Generator](https://vue-grid-generator.netlify.app/)
-- [Fonctions utilitaires Javascript (Work in progress)](https://utils.matoseb.com/)
+- [CSS Grid Generator](https://vue-grid-generator.netlify.app/).
+- [Fonctions utilitaires Javascript (Work in progress)](https://utils.matoseb.com/).
+- [ECAL MID Proxy](https://proxy.ecal-mid.ch) [[Infos](https://github.com/Rob--W/cors-anywhere)].
 
 ## Tutoriaux
 - [HTML/CSS - Long live the scroll](https://ecal-mid.ch/resources/html-css-js/).
