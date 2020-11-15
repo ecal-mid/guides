@@ -4,7 +4,7 @@
 - Recherche avec des mots-clefs de type [technologie] [librairie] [but] [problème] :
     - Ex. "js threejs cant load texture".
 - Ordre : L'importance des mots dans la recherche est décroissant.
-- Ignorer un mot-clef: mettre un tiret avant le mot.
+- Ignorer un mot-clef : mettre un tiret avant le mot.
 - Rechercher exactement un mot : mettre le mot entre guillemets.
 - Rechercher que dans un nom de domaine : écrire "site:https://lenomdedomaine.com" avant vos mots.
 
