@@ -13,7 +13,7 @@
 - [Yandex Images](https://yandex.com/images/).
 - [TinEye](https://tineye.com/).
 
-## Enhance les images
+## Agrandir les images avec du deep learning
 - [Waifu2x](http://waifu2x.udp.jp/).
 - [Topaz GigaPixel AI](https://topazlabs.com/gigapixel-ai/).
 
