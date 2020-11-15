@@ -33,7 +33,7 @@
 - ~~[forum.snahp.it](https://forum.snahp.it/)~~, ~~[cgpeers.to](https://cgpeers.to/)~~.
 
 ## Multi-curseurs sur Visual Studio Mac
-- Sélectionner le texte à retrouver puis `Cmd + D`. Ecrivez à plusieurs endroits en même temps.
+- Sélectionner le texte à retrouver puis `Cmd + D`. Puis écrivez à plusieurs endroits en même temps. `Cmd + K` pour skip une des sélections.
 - Sélectionner comme un pro.
     - `Flèches` pour bouger le curseur lettre par lettre.
     - `Alt + Flèches` pour allez mot par mot.
@@ -44,4 +44,4 @@
 
 ## Raccourcis Mac
 - Couper / Coller : `Cmd + C` puis `Alt + Cmd + V`.
-- Désactiver les notifications : `Alt + Clique gauche` sur l'îcone `☰` tout à droite de la barre des menus.
+- Désactiver les notifications : `Alt + Clique gauche` sur l'icône `☰` tout à droite de la barre des menus.
