@@ -21,7 +21,7 @@
 - [Reddit](https://vue-grid-generator.netlify.app/)
     - Ex : sur Google, cherchez "reddit best library 3d js".
 
-## Essayer des logiciel complets pour Mac
+## Essayer des logiciels complets gratuitement pour Mac
 - Munissez-vous de
     - adBlocker [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=fr).
     - Torrent Client [Transmission](https://transmissionbt.com/download/).
