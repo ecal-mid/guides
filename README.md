@@ -10,6 +10,8 @@
 - [CSS Grid Generator](https://vue-grid-generator.netlify.app/).
 - [Fonctions utilitaires Javascript (Work in progress)](https://utils.matoseb.com/).
 - [ECAL MID Proxy](https://proxy.ecal-mid.ch) [[Infos](https://github.com/Rob--W/cors-anywhere)].
+- [Fancy Border Radius](https://9elements.github.io/fancy-border-radius).
+- [Smooth Shadow Generator](https://brumm.af/shadows).
 
 ## Tutoriaux
 - [HTML/CSS - Long live the scroll](https://ecal-mid.ch/resources/html-css-js/).
