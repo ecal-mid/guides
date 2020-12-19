@@ -17,8 +17,7 @@
 	- L’ordre est souvent important dans le `index.html` : la balise `<script></script>` d'une librairie doit être placée au-dessus du script qui l'utilise.
 - [ ] Les variables sont-elles toutes déclarées ?
 	- Ecrire `use strict;` à la première ligne de votre code. Ça forcera à déclarer les variables : 
-		- `let poop = 1;`
-		- `let wtf; wtf = 2;`
+		```js let poop = 1; let wtf; wtf = 2;```
 - [ ] Une librairie a été mise à jour ?
 	-  Risque de non-compatibilité avec le code. Regarder les changements dans la documentation de la librairie. Ou télécharger une ancienne version.
 - [ ] N'arrive pas à trouver l'origine de l'erreur ?
