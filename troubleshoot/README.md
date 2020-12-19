@@ -2,17 +2,17 @@
 
 - [ ] `{}`, `[]`, `{}` manquants ?
   - Bien indenter le code avec des formatteurs de code :
-	  - [Prettier]([https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)) pour [Visual Studio]([https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)).
-	  - [Prettier online]([https://prettier.io/playground/](https://prettier.io/playground/)).
+	  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) pour [Visual Studio](https://visualstudio.microsoft.com/).
+	  - [Prettier online](https://prettier.io/playground/).
 - [ ] Le projet est lancé depuis un localhost ?
-	- [Lancement d'un localhost]([https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python](https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python)) via le Terminal (Mac OS).
+	- [Lancement d'un localhost](https://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python) via le Terminal (Mac OS).
 - [ ] Pas de changement après le rechargement de la page. Le cache est-il désactivé ?
-	- [Désactiver le cache sur Google Chrome]([https://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development](https://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development)).
+	- [Désactiver le cache sur Google Chrome](https://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development).
 - [ ] Un chiffre est divisé par zéro ?
 	- `let shit = 0; console.log(10/shit)` donnera `Infinity`.
 - [ ] La page lag puis se freeze ?
 	- Une boucle `for` ou `while` ne se termine jamais.
-	- Il y a un "memory leak". Le code n'est pas optimisé et le "garbage collector" n'arrive pas à vider la mémoire qui sature. Comment diagnostiquer avec [Google devtools]([https://developers.google.com/web/tools/chrome-devtools/memory-problems](https://developers.google.com/web/tools/chrome-devtools/memory-problems)).
+	- Il y a un "memory leak". Le code n'est pas optimisé et le "garbage collector" n'arrive pas à vider la mémoire qui sature. Comment diagnostiquer avec [Google devtools](https://developers.google.com/web/tools/chrome-devtools/memory-problems).
 - [ ] Erreur dans la console : N'arrive pas à trouver un script.
 	- L’ordre est souvent important dans le `index.html` : la balise `<script></script>` d'une librairie doit être placée au-dessus du script qui l'utilise.
 - [ ] Les variables sont-elles toutes déclarées ?
