@@ -8,6 +8,7 @@
 
 ## Utilitaires, outils
 - [CSS Grid Generator](https://vue-grid-generator.netlify.app/).
+- [CSS Flexyboxes](https://the-echoplex.net/flexyboxes).
 - [Fonctions utilitaires Javascript (Work in progress)](https://utils.matoseb.com/).
 - [ECAL MID Proxy](https://proxy.ecal-mid.ch) [[Infos](https://github.com/Rob--W/cors-anywhere)].
 - [Fancy Border Radius](https://9elements.github.io/fancy-border-radius).
