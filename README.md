@@ -15,6 +15,7 @@
 - [ECAL MID Proxy](https://proxy.ecal-mid.ch) [[Infos](https://github.com/Rob--W/cors-anywhere)].
 - [Fancy Border Radius](https://9elements.github.io/fancy-border-radius).
 - [Smooth Shadow Generator](https://brumm.af/shadows).
+- [Text Crop for Sass/Less/Stylus](https://text-crop.eightshapes.com/)
 
 ## Tutoriaux
 - [HTML/CSS - Long live the scroll](https://ecal-mid.ch/resources/html-css-js/).
